@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto/Roboto-Light.ttf.ttf');
+}
+@font-face {
+  font-family: 'Quando';
+  src: url('../fonts/Quando/Quando-Regular.ttf');
+}
+* {
+  font-family: "Roboto";
+}
+body { 
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  background: #7d5123;
+}
+header nav li a, header nav li a:hover{
+  color:#fff;
+  font-size: 14px;
+}  
+.carousel-control-prev-icon {
+  background-image: url("../img/chevron-prev.png") !important;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 40px;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("../img/chevron-next.png") !important;
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 40px;
+ }
+ .listing-area.container-fluid{
+   padding: 30px 50px;
+ }
+
+ .new-section{ 
+  background: url(../img/listing-area.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+.products{
+  max-height:650px;
+  height: auto;
+  overflow: auto;
+  margin: 40px 0;
+}
+
+.products ul{
+  list-style: none;
+}
+
+.products ul li{
+  width: 30%;
+  padding: 20px;
+  height: auto;
+  margin: 10px;
+  background: #2a2d12;
+}
+.products ul li .product-title{ 
+  font-size: 22px;
+  color:#fec465;
+  text-align: center;
+}
+.products ul li a:hover{ 
+  text-decoration: none;
+}
+
+.listing-area .title{
+  font-family: "Quando";
+  font-size: 67px;
+  color:#fec465;
+  text-align: center;
+}
+
+.listing-area .description{
+  font-family: "Roboto-Light";
+  font-size: 22px;
+  color:#ffffff;
+  text-align: center;
+}
+
+#style-2::-webkit-scrollbar,
+#style-2::-webkit-scrollbar-thumb,
+#style-2::-webkit-scrollbar-track { 
+    width: 12px;
+    border: none;
+    background: transparent;
+}
+
+#style-2::-webkit-scrollbar-button,
+#style-2::-webkit-scrollbar-track-piece,
+#style-2::-webkit-scrollbar-corner,
+#style-2::-webkit-resizer {
+    display: none;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #eab55d;
+}
+
+#style-2::-webkit-scrollbar-track {
+    background-image: url("../img/scroll-track.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.banner-text-area{
+  position: absolute;
+    right: 300px;
+    top: 0;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    color: #eab55d;
+    top: 60%;
+    transform: translateY(-60%);
+    width: 400px;
+}
+
+.banner-text-area .slide-no{
+  font-size: 60px;
+}
+
+.banner-text-area .slide-text{ 
+  font-family: 'Quando';
+  font-size: 50px;
+  line-height: 40px;
+}
+
+.divider{
+  border: 3px solid #fff;
+  width: 60%;
+  margin: 0 auto;    
+  margin-bottom: 50px;
+  background: #fff;
+}
+
+.diya-area{
+  position: absolute;
+  width: 187px;
+  height: 120px;
+  right: 52px;
+  bottom: 100px;
+}
+
+
+
